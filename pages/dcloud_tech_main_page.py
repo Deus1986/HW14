@@ -44,4 +44,4 @@ class DcloudTechMainPage:
 
     def success_form_shuold_have_text(self):
         browser.element('//div[@id="tildaformsuccesspopuptext"]').should(
-            have.text("Спасибо! Данные успешно отправлены."))
+            have.text("Thank you! Your data has been submitted."))
