@@ -28,7 +28,7 @@ def load_env():
 def setup_browser(request):
     browser_version = request.config.getoption('--browser_version')
     browser_version = browser_version if browser_version != "" else DEFAULT_BROWSER_VERSION
-    browser.config.base_url = "https://demoqa.com/automation-practice-form/"
+    browser.config.base_url = "https://dcloud.tech/"
     options = Options()
     capabilities = {
         "browserName": "chrome",
